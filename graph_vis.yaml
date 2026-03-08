@@ -1,0 +1,41 @@
+name: graph_vis_env
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Core
+  - python=3.11
+  - pip
+
+  # Genome / pangenome graphs
+  - odgi
+  - gfatools
+  - vg
+
+  # Graph analysis
+  - networkx
+  - igraph
+  - python-igraph
+
+  # Visualization (Python)
+  - matplotlib
+  - seaborn
+  - plotly
+  - pygraphviz
+  - graphviz
+
+  # Data handling
+  - pandas
+  - numpy
+
+  # Jupyter / interactive work
+  - jupyterlab
+  - ipykernel
+
+  # Optional utilities
+  - tqdm
+  - rich
+
+  # Extra Python-only packages
+  - pip:
+      - pyvis

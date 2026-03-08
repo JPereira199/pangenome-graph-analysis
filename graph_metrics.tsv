@@ -1,0 +1,2 @@
+n_nodes	n_edges	total_sequence_length	mean_node_length	median_node_length	mean_degree	max_degree	branching_nodes	branching_fraction
+11070	15918	252887253	22844.376964769646	172.0	2.875880758807588	9	5485	0.495483288166215
